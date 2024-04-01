@@ -1,5 +1,5 @@
 ### root/variables.tf
-#### VARIABLES THAT ARE SENSITIVE SHOULD BE STORED TERRAFORM.TFVARS ####
+#### VARIABLES THAT ARE SENSITIVE SHOULD BE STORED IN TERRAFORM.TFVARS ####
 
 variable "aws_region" {
   default = "ca-central-1"
