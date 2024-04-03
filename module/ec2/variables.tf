@@ -1,41 +1,39 @@
 ### module/ec2/variables.tf
 
 variable "instance_count" {
-    type = number
+  type = number
 }
 
 variable "instance_type" {
-    type = number
+  type = string
 }
 
-variable "public_sg" {
-    type = string
-}
+variable "public_sg" {}
 
 variable "public_subnets" {
-    type = list(string)
+  type = list(string)
 }
 
 variable "volume_size" {
-    type = number
+  type = number
 }
 
 variable "key_name" {
-    type = string
+  type = string
 }
 
 variable "public_key_path" {
-    type = string
+  type = string
 }
 
 variable "user_data_path" {
-    type = string
+  type = string
 }
 
 variable "alb_target_grp_arn" {
-    type = string
+  type = string
 }
 
 variable "tg_port" {
-    type = number
+  type = number
 }

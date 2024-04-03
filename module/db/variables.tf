@@ -1,45 +1,43 @@
 ### module/db/variables.tf
 
 variable "db_identifier" {
-    type = string
+  type = string
 }
 
 variable "db_storage" {
-    type = number
+  type = number
 }
 
 variable "dbname" {
-    type = string
+  type = string
 }
 
 variable "db_engine" {
-    type = string
+  type = string
 }
 
 variable "db_instance_class" {
-    type = string
+  type = string
 }
 
 variable "db_subnet_group_name" {
-    type = string
+  type = string
 }
 
-variable "vpc_security_group_ids" {
-    type = string
-}
+variable "vpc_security_group_ids" {}
 
 variable "dbuser" {
-    type = string
+  type = string
 }
 
 variable "dbpass" {
-    type = string
+  type = string
 }
 
 variable "db_parameter_group_name" {
-    type = string
+  type = string
 }
 
 variable "db_skip_snapshot" {
-    type = bool
+  type = bool
 }

@@ -1,45 +1,43 @@
 ### module/alb/variables.tf
 
-variable "public_sg" {
-    type = string
-}
+variable "public_sg" {}
 
 variable "public_subnets" {
-    type = list(string)
+  type = list(string)
 }
 
 variable "tg_port" {
-    type = number
+  type = number
 }
 
 variable "tg_protocol" {
-    type = string
+  type = string
 }
 
 variable "vpc_id" {
-    type = string
+  type = string
 }
 
 variable "alb_healthy_threshold" {
-    type = number
+  type = number
 }
 
 variable "alb_unhealthy_threshold" {
-    type = number
+  type = number
 }
 
 variable "alb_timeout" {
-    type = number
+  type = number
 }
 
 variable "alb_interval" {
-    type = number
+  type = number
 }
 
 variable "listener_port" {
-    type = number
+  type = number
 }
 
 variable "listener_protocol" {
-    type = string
+  type = string
 }
