@@ -27,7 +27,7 @@ Make sure you have the following:
 
 ## <a name="what-is-being-created">🔋 What Is Being Created</a>
 
-What we will be creating:
+What we will be creating and using:
 
 - VPC
 - VPC Subnets
@@ -37,6 +37,12 @@ What we will be creating:
 - VPC Route Table Associations
 - EC2s
 - RDS Database
+- ElastiCache
+- Amazon S3
+- AWS Shield DDoS Protection
+- Amazon Cloudfront
+- AWS WAF (Web Application Firewall)
+- Route 53
 
   ## <a name="quick-guide">🤸 Quick Guide</a>
 
