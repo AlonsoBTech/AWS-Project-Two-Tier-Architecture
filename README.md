@@ -13,6 +13,7 @@ Creating a highly available AWS Two Tier Architecture for a web application. Thi
 of creating an architecture for a web application with cost in mind. A three tier architecture would offer better
 scalability, flexibility and even maintainability but it will require high cost for development and maintenance hence the
 creation of this project focusing on cost optimization while still providing high availability.
+
 ![architecture](https://github.com/AlonsoBTech/AWS-Project-Two-Tier-Architecture/assets/160416175/6ad3a09f-d18f-4fd8-be32-c79ca3320d06)
 
 
