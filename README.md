@@ -36,6 +36,7 @@ What we will be creating and using:
 - VPC Route Table Route
 - VPC Route Table Associations
 - EC2s
+- Application Load Balancer
 - RDS Database
 - ElastiCache
 - Amazon S3
