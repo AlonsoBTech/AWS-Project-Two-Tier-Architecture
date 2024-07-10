@@ -9,7 +9,7 @@ module "network" {
   private_sub_count = 2
   # PublicSubnets will always have an even number IP for example 10.0.2.0/24
   public_subnet_cidr = [for i in range(2, 255, 2) : cidrsubnet(local.vpc_cidr, 8, i)]
-  # Privateubnets will always have a odd number IP for example 10.0.1.0/24
+  # Privateubnets will always have an odd number IP for example 10.0.1.0/24
   private_subnet_cidr = [for i in range(1, 255, 2) : cidrsubnet(local.vpc_cidr, 8, i)]
   security_groups     = local.security_groups
   db_subnet_group     = true
